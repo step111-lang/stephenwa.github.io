@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><title>PROTO-T</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            border-sizing:border-box;
+            display: flex;
+            position: relative;
+            align-items: center;
+            background-color:lightblue;
+            justify-content: center;
+
+        }
+        .container{
+            margin: 15%;
+            height: 150px;
+            width: 350px;
+            border:2px solid navy;
+            position: relative;
+            padding: 30px; 
+            top: 50%; 
+            b
+        }
+        input{
+            margin-top: 20px;
+            padding:20px
+            height: 30px;
+            color:navy;
+            outline:none;
+            border:3px solid none;
+            background:lightblue;
+        }
+        input:focus{
+            border:2px solid red;
+            box-shadow: 2px 3px 7px blue;
+            color:blue;
+            font-size: 20px;
+            width:85% ;
+            
+        }
+        .login{
+            height: 40px;
+            width: 100%;
+            left: 0px;
+            border-bottom: 2px solid lightblue;
+            position: absolute;
+            top:-0.5px;
+            background-color:navy;
+           color: lightblue;
+           display: flex;
+           align-items: center;
+           justify-content: ;
+           font-size: 25px;
+           font-weight: bold;
+           font-style: oblique;
+           
+        }
+        .but{
+            margin-top: 25px;
+            border: 2px solid navy;
+            width: 100px;
+            color: aliceblue;
+            background-color: navy;
+        }
+        .but:focus{
+            color:blue;
+        }
+        
+    </style>
+    <div class="container">
+        
+        <div class="login">LOGIN</div>
+        <input class="name" placeholder="NAME" required>
+        <input class="place" placeholder="LOCATION" required>
+        <button class="but" >SEND</button>
+    </div>
+
+
+</body>
+</html>
