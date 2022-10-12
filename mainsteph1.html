@@ -1,87 +1,343 @@
 <!DOCTYPE html>
-<html lang="en">
-<head><title>PROTO-T</title>
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<html>
+<head>
+   <title> STEPHEN WAIGANJO </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <style>
-        body{
-            border-sizing:border-box;
-            display: flex;
-            position: relative;
-            align-items: center;
-            background-color:lightblue;
-            justify-content: center;
+ <style>
+*{
+margin:0;
+padding:0;
+border-sizing:border-box;
+}
+body{
+position:relative;
+border-sizing: border-box;
+color:rgba(23,20,23,0.7);
+background-size:;
+width:100%;
+background:rgba(203,230,230,1);
+}
+.navbar{
+position: relative;
+margin-top:0%;
+height:60px;
+width:100%;
+display:flex;
+background:;
+justify-content: space-around;
+align-items: center;
+font-size:15px;
 
-        }
-        .container{
-            margin: 15%;
-            height: 150px;
-            width: 350px;
-            border:2px solid navy;
-            position: relative;
-            padding: 30px; 
-            top: 50%; 
-            b
-        }
-        input{
-            margin-top: 20px;
-            padding:20px
-            height: 30px;
-            color:navy;
-            outline:none;
-            border:3px solid none;
-            background:lightblue;
-        }
-        input:focus{
-            border:2px solid red;
-            box-shadow: 2px 3px 7px blue;
-            color:blue;
-            font-size: 20px;
-            width:85% ;
-            
-        }
-        .login{
-            height: 40px;
-            width: 100%;
-            left: 0px;
-            border-bottom: 2px solid lightblue;
-            position: absolute;
-            top:-0.5px;
-            background-color:navy;
-           color: lightblue;
-           display: flex;
-           align-items: center;
-           justify-content: ;
-           font-size: 25px;
-           font-weight: bold;
-           font-style: oblique;
-           
-        }
-        .but{
-            margin-top: 25px;
-            border: 2px solid navy;
-            width: 100px;
-            color: aliceblue;
-            background-color: navy;
-        }
-        .but:focus{
-            color:blue;
-        }
-        
-    </style>
-    <div class="container">
-        
-        <div class="login">LOGIN</div>
-        <input class="name" placeholder="NAME" required>
-        <input class="place" placeholder="LOCATION" required>
-        <button class="but" >SEND</button>
-    </div>
+}
+.logo{
+position: relative;
+margin:10px;
+font-size:15px;
+}
+.logo:focus {
+outline:none;
+}
+.logo:hover{
+height: inherit;
+width:auto;
+background:;
+font-size:14px;
+display:flex;
+margin:2px;
+color:blue;
+align-items: center;
+margin:2px;
+border-bottom:2px solid blue;
+}
+.foot{
+position: relative;
+bottom:0;
+height:auto;
+width:100%;
+background:rgba(20,48,48,0.1);
+display:flex;
+font-size:12.5px;
+flex-direction:column;
+align-items: center;
+margin-top:10px;
+border-top:2px solid rgba(40,48,48,0.01);
+}
+.container {
+position: relative;
+display:flex;
+flex-direction:column;
+align-items: center;
+margin:30px;
+
+}
+.cont{
+position:;
+height:200px;
+width:200px;
+background-image:url("https://mimo.app/i/hacker.png");
+/*background:rgba(21,20 ,23,0.2);*/
+object-fit:fill;
+object-repeat:no-repeat;
+background-position: center;
+box-shadow:2px 2px 3px 5px rgba(21,20 ,23,0.2);
+display:flex;
+filter:blur(0.1px);
+margin:10px;
+align-items: center;
+flex-direction:column;
+font-size:15px;
+justify-content: start;
+z-index:1;
+border:none;
+}
+.cont h6{
+position: absolute;
+margin-top:47%;
+color:black;
+font-style:italic;
+transition:0.5s ease;
+}
+.cont h5{
+position: absolute;
+top:3px;
+}
 
 
+.cont:hover h5{
+position: absolute;
+font-size:15px;
+transition:1s ease-out;
+font-weight:bold;
+}
+.cont:hover{
+
+}
+.cont:hover:after{
+
+}
+.cont-follow{
+position: relative;
+display:flex;
+height:100px;
+width:100%;
+background:rgba(0,0,0 ,0.1);
+justify-content: space-around;
+align-items: center;
+outline:none;
+text-dacorarion:none;
+}
+.cont-follow h4{
+position: absolute;
+top:0;
+}
+.cont-follow a{
+position: relative;
+bottom:0;
+}
+.cont-follow a:hover{
+filter:drop-shadow(2px 3px 10px blue);
+}
+.sidebar{
+position: absolute;
+height:390px;
+width:0px;
+background:rgba(20,8,4,1);
+box-shadow: 0px 1px 0px 0px  rgba(20,23 ,20,1);
+transition:0.5s ease-in;
+Display:flex;
+align-items: center;
+flex-direction: column;
+color:rgba(230,230,240,0.7);
+z-index:3;
+margin-top:0px;
+overflow: hidden;
+opacity:1;
+} 
+.sidebar h1{
+position: absolute;
+left:20px;
+}
+.sidebar h4{
+position: relative;
+top:40%;
+left:7%;
+transform:rotate(90deg);
+}
+.sidebar i{
+position: absolute;
+top:30px;
+left:4%;
+}
+.psdbar{
+position: absolute;
+height:300px;
+width:0px;
+background:rgba(21,23,24,1);
+transition:0.5s ease-in;
+
+Display:flex;
+align-items: center;
+flex-direction: column;
+color:rgba(230,230,240,0.7);
+z-index:3;
+margin-top:20px;
+overflow: hidden;
+opacity:1;
+
+}
+.del{
+position: absolute;
+right:0px;
+top:0px;
+font-size:20px;
+display:;
+z-index:3;
+background:;
+color: orange;
+}
+.actbtn{
+position: relative;
+top:40px;
+font-size:20px;
+background:;
+overflow:hidden;
+width:20px;
+z-index:1;
+}
+.homec{
+position: relative;
+height:90vh;
+width:100%;
+background:;
+z-index:0;
+}
+.homeside{
+position: absolute;
+right:0;
+height :58.5vh;
+width:200px;
+background-image:url("https://mimo.app/i/hacker.png");
+background-size:cover;
+object-fit:fill;
+object-repeat:no-repeat;
+background-position: center;
+border-top-left-radius:100%;
+border-bottom-left-radius:100%;
+border-left:3px solid lightblue;
+box-shadow:5px 3px 4px 4px rgba(21,23,24,1);
+z-index:4;
+}
+.tex{
+position: absolute;
+right:55%;
+top:40%;
+
+}
+.tex h2{
+color:;
+}
+.tex h4{
+position: absolute;
+margin-top:20px;
+left:10px;
+}
+.homesidebar{
+position: absolute;
+right:0;
+height :99.7%;
+width:200px;
+background-image:url("https://mimo.app/i/hacker.png");
+/*background:lightblue;*/
+background-size:cover;
+object-fit:fill;
+object-repeat:no-repeat;
+background-position: center;
+border-top-left-radius:100%;
+border-bottom-left-radius:100%;
+box-shadow:5px 3px 4px 4px rgba(21,23,24,1);
+left:60%;
+z-index:2;
+}
+
+</style>
+<div class="navbar">
+   <div >LOGO</div>
+   <div class="logo">HOME</div>
+  <div class="logo" id="about">ABOUT</div>
+  <div class="logo">CONTACT</div>
+  <div class="logo">HELP</div>
+</div>
+<div class="actbtn">+</div>
+<div class="sidebar">
+<div class="del">X</div>
+<h1>heading</h1>
+ <h4>LETS MAKE THE WORLD A SMALL VILLAGE</h4>
+ <div class="homesidebar"></div>
+</div>
+<div class="homec">
+ <div class="tex">
+  <h2>HELLO THERE</h2>
+  <h5>My name is:<br> STEPHEN-WAIGANJO</h5>
+  <h5>I am a web developer </h5>
+  <h4>l have years of experience in programming </h4>
+ </div>
+  <div class="homeside"></div>
+ </div>
+<div class="container">
+<h3>ABOUT</h3>
+<div class="cont">
+ <h5>PERSONAL WEBSITES</h5>
+ <h6 style="padding:5px;">
+     advertise yourself , share what you have to the world.<br> 
+     lets get you connected to the world 
+    with your own personal website<br>
+    cheap and well designed to sort your needs. <br>
+      
+ </h6>
+ </div>
+<div class="cont">
+ <h5>COMMERCIAL WEBSITES</h5>
+ <h6 style="padding:5px;">
+   Attract more of your clients from all around the world <br>
+   display your stock for advertisment <br>
+  let your clients make orders through your website without the need to visit your shop and be always one step ahead of the others 
+ </h6>
+ </div>
+<div class="cont">
+<h5>BLOGS</h5>
+ <h6 style="padding:5px">Its time to elevate and show this suckers they know nothing<br></h6>
+</div>
+</div>
+<div class="cont-follow">
+ <h4>lets get connected</h4>
+<i class="fa fa-whatsapp" style="font-size:24px;"><a href="https://wa.me/2540794349600"></a></i>
+<i class="fa fa-instagram" style="font-size:24px;"></i> 
+<i class="fa fa-telegram" style="font-size:24px;"></i>  
+</div>
+<div class="foot">
+ <h3></h3>
+<h4>creating websites</h4>
+<h5><label>gmail:</label>stephelp@gmail.com</h5>
+<h5><label>contact:</label>0794349600</h5>
+<h5><label>location:</label>Nairobi </h5>
+<h5><label>©.</label>copyright </h5>
+<h5><label></label>#stephenwa#stephens#stephen's</h5>
+ </div>
+   <script>
+const sdbar=document.querySelector(".sidebar");
+const del=document.querySelector(".del");
+const actbtn=document.querySelector(".actbtn");
+
+actbtn.addEventListener("click",()=>{
+ sdbar.style.width="260px";
+ 
+});
+del.addEventListener("click",()=>{
+ sdbar.style.width="0px";
+ 
+});    
+   </script>
 </body>
 </html>
